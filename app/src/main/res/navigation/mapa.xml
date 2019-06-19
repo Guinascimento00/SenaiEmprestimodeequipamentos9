@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mapa"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.senaiemprestimodeequipamentos.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/adm1"
+        android:name="com.example.senaiemprestimodeequipamentos.Adm1"
+        android:label="activity_adm1"
+        tools:layout="@layout/activity_adm1" />
+    <activity
+        android:id="@+id/emprestados"
+        android:name="com.example.senaiemprestimodeequipamentos.emprestados"
+        android:label="activity_emprestados"
+        tools:layout="@layout/activity_emprestados" />
+    <activity
+        android:id="@+id/todosEquips"
+        android:name="com.example.senaiemprestimodeequipamentos.todosEquips"
+        android:label="activity_todos_equips"
+        tools:layout="@layout/activity_todos_equips" />
+    <activity
+        android:id="@+id/emprestimo"
+        android:name="com.example.senaiemprestimodeequipamentos.emprestimo"
+        android:label="activity_emprestimo"
+        tools:layout="@layout/activity_emprestimo" />
+    <activity
+        android:id="@+id/usuario1"
+        android:name="com.example.senaiemprestimodeequipamentos.usuario1"
+        android:label="activity_usuario1"
+        tools:layout="@layout/activity_usuario1" />
+    <activity
+        android:id="@+id/calendarioEmprestimo"
+        android:name="com.example.senaiemprestimodeequipamentos.calendarioEmprestimo"
+        android:label="activity_calendario_emprestimo"
+        tools:layout="@layout/activity_calendario_emprestimo" />
+</navigation>
