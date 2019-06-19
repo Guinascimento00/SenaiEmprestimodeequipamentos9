@@ -20,20 +20,8 @@ public class emprestimo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_emprestimo);
         getSupportActionBar().hide();
-
-
         recyclerView = findViewById(R.id.recyclerView);
-        Button button7 = findViewById(R.id.button7 );
-        button7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void prox(View view) {
-                Intent intent = new Intent(getApplicationContext(), calendarioEmprestimo.class);
-                startActivity(intent);
-
-            }
-        });
-    }
-
+        }
 public void carregarListaDisponiveis() {
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
@@ -43,7 +31,11 @@ public void carregarListaDisponiveis() {
 
     }
 
+    public void prox(View view) {
+        Intent intent = new Intent(getApplicationContext(), calendarioEmprestimo.class);
+        startActivity(intent);
+        finish();
 
 
-
+}
 }

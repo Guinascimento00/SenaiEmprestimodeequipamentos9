@@ -15,20 +15,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="42dp"
-        android:layout_height="33dp"
-        android:layout_marginEnd="387dp"
-        android:layout_marginBottom="5dp"
-        android:background="@android:color/background_light"
-        android:onClick="goingHome"
-        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="?attr/homeAsUpIndicator" />
-
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
