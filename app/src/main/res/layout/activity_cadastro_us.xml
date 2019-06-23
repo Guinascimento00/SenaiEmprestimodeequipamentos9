@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cadastroUs">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="380dp"
+        android:layout_height="61dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="425dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email  " />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="382dp"
+        android:layout_height="58dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="83dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/editID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID  " />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="390dp"
+        android:layout_height="75dp"
+        android:hint="Nome "
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="187dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/editNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hint" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="382dp"
+        android:layout_height="75dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="306dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/editFunçao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Função" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="380dp"
+        android:layout_height="61dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="537dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/editSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Senha" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonSalvar"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_width="278dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#499B54"
+        android:onClick="Salvar"
+        android:text="Salvar"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,4 +1,4 @@
-package com.example.senaiemprestimodeequipamentos;
+package com.example.senaiemprestimodeequipamentos.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +10,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
+
+import com.example.senaiemprestimodeequipamentos.R;
+import com.example.senaiemprestimodeequipamentos.calendarioEmprestimo;
 
 public class emprestimo extends AppCompatActivity {
 

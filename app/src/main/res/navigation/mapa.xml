@@ -17,17 +17,17 @@
         tools:layout="@layout/activity_adm1" />
     <activity
         android:id="@+id/emprestados"
-        android:name="com.example.senaiemprestimodeequipamentos.emprestados"
+        android:name="com.example.senaiemprestimodeequipamentos.activity.emprestados"
         android:label="activity_emprestados"
         tools:layout="@layout/activity_emprestados" />
     <activity
         android:id="@+id/todosEquips"
-        android:name="com.example.senaiemprestimodeequipamentos.todosEquips"
+        android:name="com.example.senaiemprestimodeequipamentos.activity.todosEquips"
         android:label="activity_todos_equips"
         tools:layout="@layout/activity_todos_equips" />
     <activity
         android:id="@+id/emprestimo"
-        android:name="com.example.senaiemprestimodeequipamentos.emprestimo"
+        android:name="com.example.senaiemprestimodeequipamentos.activity.emprestimo"
         android:label="activity_emprestimo"
         tools:layout="@layout/activity_emprestimo" />
     <activity
@@ -40,4 +40,9 @@
         android:name="com.example.senaiemprestimodeequipamentos.calendarioEmprestimo"
         android:label="activity_calendario_emprestimo"
         tools:layout="@layout/activity_calendario_emprestimo" />
+    <activity
+        android:id="@+id/cadastroUs"
+        android:name="com.example.senaiemprestimodeequipamentos.cadastroUs"
+        android:label="activity_cadastro_us"
+        tools:layout="@layout/activity_cadastro_us" />
 </navigation>

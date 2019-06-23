@@ -1,4 +1,4 @@
-package com.example.senaiemprestimodeequipamentos;
+package com.example.senaiemprestimodeequipamentos.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.LinearLayout;
+
+import com.example.senaiemprestimodeequipamentos.R;
 
 public class todosEquips extends AppCompatActivity {
 private RecyclerView recyclerView3;

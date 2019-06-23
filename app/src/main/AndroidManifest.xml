@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".calendarioEmprestimo"></activity>
+        <activity android:name=".cadastroUs"></activity>
+        <activity android:name=".calendarioEmprestimo" />
         <activity android:name=".usuario1" />
-        <activity android:name=".emprestimo" />
-        <activity android:name=".todosEquips" />
-        <activity android:name=".emprestados" />
+        <activity android:name=".activity.emprestimo" />
+        <activity android:name=".activity.todosEquips" />
+        <activity android:name=".activity.emprestados" />
         <activity android:name=".Adm1" />
         <activity android:name=".MainActivity">
             <intent-filter>
